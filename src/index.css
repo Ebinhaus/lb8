@@ -1,13 +1,70 @@
 body {
+  font-family: Bradley Hand, cursive; /*sans-serif;*/
+  font-size: 16px;
+  background-color: aquamarine;
+  padding: 20px;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+ }
+ h1, ul, li {
+  font-family: Bradley Hand, cursive; /*sans-serif;*/
+ }
+ /*Для меню горизонтальгого*/
+ ul {
+  background-color: #111;
+  padding: 0;
+ }
+ ul li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+ }
+ ul li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+ }
+ 
+ /*Для трех страниц приложения*/
+ .component {
+  font-size: 30px;
+  height: 87vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ .home {
+  background: rgb(214, 223, 135);
+ }
+ .about {
+  background: rgb(115, 139, 243);
+ }
+ 
+ .contact {
+  background: palevioletred;
+ }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+ table {
+  width: 100%; /*1200px;*/
+  caption-side: bottom;
+  border: 4px solid #006400;
+  border-collapse: collapse;
+  table-layout: fixed;
+ }
+ th {
+  font-size: 13px;
+  font-weight: bold;
+  background: #ADFF2F;
+  border-top: 4px solid #006400;
+  border-bottom: 3px solid #FF8C00;
+  color: #039;
+  padding: 8px;
+ }
+ td {
+  background: #E0FFFF;
+  border-bottom: 1px solid #FF8C00;
+  border-top: 1px solid transparent;
+  padding: 8px;
+ }
